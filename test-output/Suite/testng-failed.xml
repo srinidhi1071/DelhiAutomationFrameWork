@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tyss.project.scripts.LoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tc_01"/>
+        </methods>
+      </class> <!-- com.tyss.project.scripts.LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

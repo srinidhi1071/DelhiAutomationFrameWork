@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Mouse Hovering to Account link]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on SingIn Link]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Username]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the login Button]]>
+    </line>
+    <line>
+      <![CDATA[Taking ScreenShot of MyAccountPageSS]]>
+    </line>
+    <line>
+      <![CDATA[Retriving the Welcome Name]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29815" started-at="2020-01-23T02:58:09Z" finished-at="2020-01-23T02:58:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29815" started-at="2020-01-23T02:58:09Z" finished-at="2020-01-23T02:58:39Z">
+      <class name="com.tyss.project.scripts.LoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tyss.project.scripts.LoginPage@27efef64]" name="setUp" is-config="true" duration-ms="12308" started-at="2020-01-23T08:28:09Z" finished-at="2020-01-23T08:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tc_01()[pri:0, instance:com.tyss.project.scripts.LoginPage@27efef64]" name="tc_01" duration-ms="16104" started-at="2020-01-23T08:28:22Z" finished-at="2020-01-23T08:28:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse Hovering to Account link]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on SingIn Link]]>
+            </line>
+            <line>
+              <![CDATA[Entering the Username]]>
+            </line>
+            <line>
+              <![CDATA[Entering the Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the login Button]]>
+            </line>
+            <line>
+              <![CDATA[Taking ScreenShot of MyAccountPageSS]]>
+            </line>
+            <line>
+              <![CDATA[Retriving the Welcome Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.project.scripts.LoginPage@27efef64]" name="tearDown" is-config="true" duration-ms="1393" started-at="2020-01-23T08:28:38Z" finished-at="2020-01-23T08:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tyss.project.scripts.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
